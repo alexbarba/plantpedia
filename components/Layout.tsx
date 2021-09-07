@@ -4,7 +4,7 @@ import { Footer } from '@components/Footer'
 
 type LayoutProps = { title?: string }
 
-const siteTitle = "Platzi's Plantpedia"
+const siteTitle = "Plantpedia"
 
 const FOOTER_OFFSET = 450
 

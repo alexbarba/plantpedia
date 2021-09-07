@@ -11,7 +11,7 @@ export type CommentProps = {
 
 export function Comment(props: CommentProps) {
   const image = props.imageUrl ?? 'platzi.png'
-  const name = props.name ?? 'Platzi student'
+  const name = props.name ?? 'student'
 
   return (
     <article className="p-6 border-t-2 border-gray-300 flex">
