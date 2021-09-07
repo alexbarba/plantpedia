@@ -1,6 +1,6 @@
 import { getAuthorList } from "@api"
 import { Layout } from "@components/Layout";
-import { GetStaticProps, InferGetStaticPropsType } from 'next'
+import { GetStaticProps } from 'next'
 
 type PathType = {
   params: {
