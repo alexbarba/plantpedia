@@ -70,6 +70,7 @@ export function PlantEntrySquare({ image, plantName, slug }: Plant) {
             layout="intrinsic"
             width={460}
             aspectRatio="4:3"
+            alt={plantName}
           />
           <div className="p-4">
             <Typography variant="h4" className="break-words">
@@ -101,6 +102,7 @@ export function PlantEntryInline({
             aspectRatio="1:1"
             fit="fill"
             className="flex-none"
+            alt={plantName}
           />
           <div className="pl-2 flex-auto">
             <Typography variant="h6" className="break-words">
@@ -128,6 +130,7 @@ export function PlantEntryVertical({
             width={624}
             layout="intrinsic"
             aspectRatio="9:12"
+            alt={plantName}
           />
           <Typography variant="h2" className="break-words pt-4 px-4">
             {plantName}

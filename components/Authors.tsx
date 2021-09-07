@@ -39,6 +39,7 @@ export function Authors({ className }: AuthorProps) {
                 aspectRatio="1:1"
                 fit="fill"
                 layout="intrinsic"
+                alt={fullName}
               />
               <Typography variant="h5" component="p">
                 {fullName}

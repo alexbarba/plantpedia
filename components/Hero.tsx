@@ -14,6 +14,7 @@ export function Hero({ plantName, slug, image, className }: HeroProps) {
             layout="intrinsic"
             width={600}
             aspectRatio="9:12"
+            alt={plantName}
           />
         </div>
         <div className="text-container absolute">

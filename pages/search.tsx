@@ -113,7 +113,7 @@ function useDebounce<T>(value: T, wait = 0) {
     return () => {
       window.clearTimeout(timeoutId)
     }
-  }, [value])
+  }, [value, wait])
 
   return debouncedValue
 }
